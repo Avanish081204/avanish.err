@@ -226,7 +226,7 @@ export default function Home() {
       }}>
         <span>Mumbai Metropolitan Region, Maharashtra, India</span>
         <div style={{ display: "flex", gap: 20 }}>
-          <a href="/Avanish_Resume.pdf" target="_blank" rel="noopener noreferrer" style={{ color: "var(--text-muted)" }}>Resume PDF</a>
+          <a href="/Avanish Shukla.pdf" target="_blank" rel="noopener noreferrer" style={{ color: "var(--text-muted)" }}>Resume PDF</a>
           <span
             onClick={() => navigate("/contact")}
             style={{ cursor: "pointer", color: "var(--text-muted)" }}

@@ -37,7 +37,7 @@ export default function Resume() {
           </p>
 
           <a
-            href="/Avanish_Resume.pdf"
+            href="/Avanish Shukla.pdf"
             target="_blank"
             rel="noopener noreferrer"
             style={{

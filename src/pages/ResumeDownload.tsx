@@ -13,7 +13,7 @@ export default function ResumeRedirect() {
           <h3>Avanish Shukla — Full-Stack Developer Resume</h3>
           <p>Download or view Avanish Shukla's resume PDF. Covers education at SLRTCE Mumbai, cloud & devops internship at Compozents, full-stack projects, and technical skills.</p>
           <a
-            href="/Avanish_Resume.pdf"
+            href="/Avanish Shukla.pdf"
             target="_blank"
             rel="noopener noreferrer"
             style={{

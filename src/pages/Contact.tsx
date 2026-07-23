@@ -214,7 +214,7 @@ export default function Contact() {
                   { icon: WhatsAppIcon, label: "WhatsApp", href: "https://wa.me/919503658089",        color: "#25D366" },
                   { icon: Github,       label: "GitHub",   href: "https://github.com/Avanish081204",  color: "var(--text-primary)" },
                   { icon: Linkedin,     label: "LinkedIn", href: "https://www.linkedin.com/in/avanish-shukla0812", color: "#0077b5" },
-                  { icon: Download,     label: "Resume",   href: "/Avanish_Resume.pdf",               color: "#1a73e8" },
+                  { icon: Download,     label: "Resume",   href: "/Avanish Shukla.pdf",               color: "#1a73e8" },
                 ].map((item) => {
                   const Icon = item.icon;
                   return (

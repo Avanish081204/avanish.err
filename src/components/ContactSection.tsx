@@ -61,7 +61,7 @@ const ContactSection = () => {
               <Linkedin size={20} />
             </a>
             <a
-              href="/Avanish_Resume.pdf"
+              href="/Avanish Shukla.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-all"

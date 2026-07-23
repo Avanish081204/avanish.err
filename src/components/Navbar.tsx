@@ -52,7 +52,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="/Avanish_Resume.pdf"
+            href="/Avanish Shukla.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-medium hover:opacity-90 transition-opacity"
@@ -95,7 +95,7 @@ const Navbar = () => {
                 </a>
               ))}
               <a
-                href="/Avanish_Resume.pdf"
+                href="/Avanish Shukla.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-medium w-fit"

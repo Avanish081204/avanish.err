@@ -50,7 +50,7 @@ const HeroSection = () => {
                 See Projects <ArrowDown size={16} />
               </a>
               <a
-                href="/Avanish_Resume.pdf"
+                href="/Avanish Shukla.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-border text-foreground font-medium hover:bg-accent transition-all"

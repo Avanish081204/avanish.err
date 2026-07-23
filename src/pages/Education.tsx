@@ -36,6 +36,7 @@ export default function Education() {
               { label: "Institution", value: "Shree L. R. Tiwari College of Engineering" },
               { label: "Affiliation", value: "University of Mumbai" },
               { label: "Timeline", value: "August 2023 – May 2027" },
+              { label: "CGPA", value: "7.0 / 10" },
               { label: "Location", value: "Mumbai Metropolitan Region" },
             ].map((item) => (
               <div key={item.label}>
@@ -55,7 +56,7 @@ export default function Education() {
         >
           <div className="result-url"><BookOpen size={14} /><span>slrtce.in › ecs › academics › avanish-shukla</span></div>
           <h3>Bachelor of Engineering — Electronic & Computer Science</h3>
-          <p>Pursuing a Bachelor of Engineering in Electronic and Computer Science at Shree L. R. Tiwari College of Engineering, affiliated with the University of Mumbai (Anticipated graduation in May 2027). Academic focus encompasses software engineering, internet software, web technologies, database management, computer networks, and openFrameworks.</p>
+          <p>Pursuing a Bachelor of Engineering in Electronic and Computer Science at Shree L. R. Tiwari College of Engineering, affiliated with the University of Mumbai (Anticipated graduation in May 2027). Currently maintaining a CGPA of 7.0 / 10. Academic focus encompasses software engineering, internet software, web technologies, database management, computer networks, and openFrameworks.</p>
         </motion.div>
 
         <hr className="result-divider" />

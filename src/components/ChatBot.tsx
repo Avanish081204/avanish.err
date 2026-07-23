@@ -3,11 +3,11 @@ import { Bot, X, ChevronRight } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const QUESTIONS = [
-  { q: "Who is Avanish?",               a: "Avanish Shukla is a Software Engineer @ Compozent and a B.E. (ECS) student at SLRTCE Mumbai (2023–2027). He specializes in full-stack web engineering, cloud deployment, and software solutions." },
-  { q: "What is his work experience?",  a: "Avanish is currently a Software Engineer at Compozent. Previously, he worked as a Frontend Developer Intern at Cognifyz Technologies, a DevOps Specialist at Compozent, and a Deep Learning Specialist at SLRTCE." },
+  { q: "Who is Avanish?",               a: "Avanish Shukla is a Software Engineer @ Compozent and a B.E. (ECS) student at SLRTCE Mumbai (2023–2027) with a CGPA of 7.0/10. He specializes in MERN stack web development, cloud deployment, and AWS infrastructure." },
+  { q: "What is his work experience?",  a: "Avanish is currently a Software Engineer at Compozent (June 2026–Present). Previously, he worked as a DevOps Specialist at Compozent (Dec 2024–Jan 2025), handling AWS architectures and CI/CD pipelines." },
   { q: "What certifications does he hold?", a: "IEEE TECHNICOKNOCKDOWN 2025 (Paper Presentation), MongoDB Overview (Core Concepts & Architecture), Learning Microsoft 365 Copilot for Work, Everyday AI Concepts, and QuizOff 2026." },
-  { q: "What are his top skills?",      a: "Software Engineering, Software Deployment, Rental Management, MongoDB, React.js, JavaScript, Python, AWS Cloud, Java, Spring Boot, Git/GitHub, and UI Usability." },
-  { q: "How can I hire or contact him?",a: "Avanish is open to software engineering opportunities! Email him at avanishshukla234@gmail.com, call +91 9503658089, or connect on LinkedIn (avanish-shukla0812)." },
+  { q: "What are his top skills?",      a: "Languages (Python, JavaScript, HTML/CSS), Web Development (React.js, Node.js, Express.js, MongoDB, JWT), Cloud & DevOps (AWS EC2, S3, IAM, CloudWatch, CodeBuild/Deploy, Lambda), Data & AI, and Git." },
+  { q: "How can I hire or contact him?",a: "Avanish is open to software engineering opportunities! Email him at avanishshukla234@gmail.com, message on WhatsApp (+91 9503658089), or connect on LinkedIn (avanish-shukla0812)." },
 ];
 
 function typewriter(text: string, setter: (v: string) => void, speed = 18) {

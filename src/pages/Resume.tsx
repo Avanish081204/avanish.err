@@ -76,9 +76,9 @@ export default function Resume() {
               </h2>
               <div style={{ display: "flex", flexDirection: "column", gap: 8, fontSize: 14, color: "var(--text-secondary)" }}>
                 <div><strong style={{ color: "var(--text-primary)" }}>Current Role:</strong> Software Engineer @ Compozent (June 2026 – Present)</div>
-                <div><strong style={{ color: "var(--text-primary)" }}>Education:</strong> B.E. Electronic & Computer Science (2023–2027) | SLRTCE (University of Mumbai)</div>
+                <div><strong style={{ color: "var(--text-primary)" }}>Education:</strong> B.E. Electronic & Computer Science (2023–2027) | SLRTCE (University of Mumbai) | CGPA: 7.0/10</div>
                 <div><strong style={{ color: "var(--text-primary)" }}>Location:</strong> Mumbai Metropolitan Region, India</div>
-                <div><strong style={{ color: "var(--text-primary)" }}>Summary:</strong> Software Engineer at Compozent & B.E. student. Former Frontend Developer Intern at Cognifyz Technologies & DevOps Specialist at Compozent. IEEE research paper presenter & certified in MongoDB & AI.</div>
+                <div><strong style={{ color: "var(--text-primary)" }}>Summary:</strong> Software Engineer and Computer Science undergraduate with hands-on technical experience in full-stack web development, AWS cloud infrastructure, and DevOps deployment pipelines. Demonstrated track record in building cross-platform user interfaces with the MERN stack, managing automated CI/CD workflows on AWS, and applying analytical models to data retrieval workflows.</div>
                 <div><strong style={{ color: "var(--text-primary)" }}>Email:</strong> avanishshukla234@gmail.com</div>
               </div>
             </div>
@@ -114,11 +114,21 @@ export default function Resume() {
           className="result-card"
         >
           <div className="result-url"><Sparkles size={14} /><span>avanish.dev › resume › experience</span></div>
-          <h3>Professional Experience — Compozent & Cognifyz Technologies</h3>
-          <p>• <strong>Software Engineer @ Compozent</strong> (June 2026 – Present): Selected as SDE Intern contributing to real-world software solutions and modern engineering practices.<br />
-          • <strong>Frontend Developer @ Cognifyz Technologies</strong> (March 2026 – April 2026): Developed responsive web interfaces using HTML, CSS, JS and modern UI components.<br />
-          • <strong>DevOps Specialist @ Compozent</strong> (Dec 2024 – Jan 2025): AWS infrastructure, cloud systems, and CI/CD pipelines.<br />
-          • <strong>Deep Learning Specialist @ SLRTCE</strong> (Dec 2024 – Jan 2025): Information Retrieval and Knowledge Engineering with Python.</p>
+          <h3>Professional Experience — Compozent</h3>
+          <div style={{ color: "var(--text-secondary)", fontSize: "14px", lineHeight: 1.6 }}>
+            <p style={{ marginBottom: 12 }}>
+              <strong>Software Engineer @ Compozent</strong> (June 2026 – Present)<br />
+              • Engineer and optimize production-ready software features, delivering 10+ enterprise-level software components in an Agile environment and improving feature release speed by 20%.<br />
+              • Execute cross-functional technical specifications to deploy production modules, serving 5,000+ simulated end-user interactions with 99% uptime.<br />
+              • Maintain structural engineering environments by upgrading web interfaces, resulting in a 15% improvement in performance.
+            </p>
+            <p>
+              <strong>DevOps Specialist @ Compozent</strong> (Dec 2024 – Jan 2025)<br />
+              • Provisioned configuration management architectures on AWS EC2, AWS S3, AWS IAM, and AWS VPC to deploy 12 scalable web application instances.<br />
+              • Streamlined deployment velocity by configuring automated CI/CD delivery pipelines using AWS CodePipeline, AWS CodeBuild, and AWS CodeDeploy, reducing build processing intervals by 25%.<br />
+              • Monitored infrastructure health and application logs using AWS CloudWatch to ensure high availability across deployed instances.
+            </p>
+          </div>
         </motion.div>
 
         <hr className="result-divider" />

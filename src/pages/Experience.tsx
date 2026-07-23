@@ -8,46 +8,27 @@ const experiences = [
     org: "Compozent",
     title: "Software Engineer",
     date: "June 2026 – Present",
-    desc: "Selected as Software Development Engineer Intern at Compozent, contributing to real-world software projects. Collaborating with a professional engineering team to enhance tech solutions, modern software engineering practices, and elevate user experience.",
-    tags: ["Software Engineering", "Full-Stack", "User Experience", "Problem Solving"],
+    bullets: [
+      "Engineer and optimize production-ready software features, delivering 10+ enterprise-level software components in an Agile environment and improving feature release speed by 20%.",
+      "Execute cross-functional technical specifications to deploy production modules, serving 5,000+ simulated end-user interactions with 99% uptime.",
+      "Maintain structural engineering environments by upgrading web interfaces, resulting in a 15% improvement in performance."
+    ],
+    tags: ["Software Engineering", "Full-Stack Web Dev", "Agile Methods", "Performance Optimization"],
     url: "compozent.com › careers › software-engineer",
-  },
-  {
-    icon: Laptop,
-    org: "Cognifyz Technologies",
-    title: "Frontend Developer & Development Intern",
-    date: "March 2026 – April 2026",
-    desc: "Worked on responsive web interfaces using HTML, CSS, and JavaScript. Developed modern UI components, improved website usability, and collaborated with the engineering team on production-level front-end tasks.",
-    tags: ["Frontend Dev", "HTML5", "CSS3", "JavaScript", "UI Components", "Usability"],
-    url: "cognifyz.com › internships › frontend-dev",
   },
   {
     icon: Cloud,
     org: "Compozent",
     title: "DevOps Specialist",
     date: "December 2024 – January 2025",
-    desc: "Worked hands-on with AWS infrastructure and DevOps tools. Collaborated on cloud-based systems, environment provisioning, and automated CI/CD deployment pipelines.",
-    tags: ["AWS", "DevOps", "CI/CD Pipelines", "Cloud Systems", "Software Deployment"],
+    bullets: [
+      "Provisioned configuration management architectures on AWS EC2, AWS S3, AWS IAM, and AWS VPC to deploy 12 scalable web application instances.",
+      "Streamlined deployment velocity by configuring automated CI/CD delivery pipelines using AWS CodePipeline, AWS CodeBuild, and AWS CodeDeploy, reducing build processing intervals by 25%.",
+      "Monitored infrastructure health and application logs using AWS CloudWatch to ensure high availability across deployed instances."
+    ],
+    tags: ["AWS Cloud", "DevOps", "CI/CD Pipelines", "Configuration Management", "System Monitoring"],
     url: "compozent.com › cloud › devops-specialist",
-  },
-  {
-    icon: BookOpen,
-    org: "Shree L. R. Tiwari College of Engineering",
-    title: "Deep Learning Specialist",
-    date: "December 2024 – January 2025",
-    desc: "Applied Deep Learning for Information Retrieval (IR) tasks using Python. Worked on IR concepts, knowledge graphs, and Knowledge Engineering research.",
-    tags: ["Python", "Deep Learning", "Information Retrieval", "Knowledge Engineering"],
-    url: "slrtce.in › research › deep-learning",
-  },
-  {
-    icon: Code,
-    org: "Shree L. R. Tiwari College of Engineering",
-    title: "Web Development Specialist",
-    date: "July 2024",
-    desc: "Hands-on experience in front-end and back-end development under structured mentorship. Worked on real-world projects and mastered core full-stack software practices.",
-    tags: ["HTML", "CSS", "JavaScript", "REST APIs", "Full-Stack Dev"],
-    url: "slrtce.in › courses › web-dev-specialist",
-  },
+  }
 ];
 
 export default function Experience() {
@@ -86,7 +67,15 @@ export default function Experience() {
                     </div>
                     <h3>{exp.title} — {exp.org}</h3>
                     <p style={{ fontSize: 12, color: "var(--accent-blue)", fontWeight: 500, marginBottom: 6 }}>{exp.date}</p>
-                    <p>{exp.desc}</p>
+                    {exp.bullets ? (
+                      <ul style={{ paddingLeft: 20, margin: "6px 0", listStyleType: "disc", color: "var(--text-secondary)", fontSize: "14px" }}>
+                        {exp.bullets.map((b, idx) => (
+                          <li key={idx} style={{ marginBottom: 4, lineHeight: 1.5 }}>{b}</li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p>{exp.desc}</p>
+                    )}
                     <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginTop: 10 }}>
                       {exp.tags.map((t) => (
                         <span className="tech-badge" key={t}>{t}</span>
@@ -105,7 +94,10 @@ export default function Experience() {
         <div className="result-card">
           <div className="result-url"><Briefcase size={14} /><span>slrtce.in › rnd-cell › leadership</span></div>
           <h3>R&D Cell — Admin Co-Head (2025–26)</h3>
-          <p>Leading administrative operations for the college's R&D Cell. Coordinates student research projects, manages events, and fosters a collaborative technical environment across all departments.</p>
+          <ul style={{ paddingLeft: 20, margin: "6px 0 12px", listStyleType: "disc", color: "var(--text-secondary)", fontSize: "14px" }}>
+            <li style={{ marginBottom: 4, lineHeight: 1.5 }}>Directed operational tasks and structural frameworks for 5 departmental technological presentation initiatives.</li>
+            <li style={{ marginBottom: 4, lineHeight: 1.5 }}>Moderated communication channels between student researchers and senior faculty to oversee ongoing technical milestones.</li>
+          </ul>
           <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginTop: 10 }}>
             {["Leadership","Administration","Research","Coordination"].map((t) => (
               <span className="tech-badge" key={t}>{t}</span>
